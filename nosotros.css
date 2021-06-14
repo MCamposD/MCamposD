@@ -1,0 +1,121 @@
+/*Esta primer parte nos ayuda para que la pagina se adapte a todos los navegadores al mismo tamaño */
+*{
+  margin: 0;
+  padding: 0;
+}
+/*La primer parte del body solo nos ayuda a darle un color de fondo a la pagina  */
+body{
+    background-color: #6a5f4d;
+}
+/* esta parte nos servira para poder darle un margen y rellenar el margen*/
+body .encabezado{
+  margin: 25px;
+  padding: 0;
+}
+/* esta parte nos servira para poder darle un margen y rellenar el margen*/
+body .color .encabezado{
+  margin: 25px;
+  padding: 0;
+}
+/* esta parte nos servira para poner el titulo de la pagina en blanco y alinear el texto al centro ademas
+de incrementar el tamaño de la letra */
+body .encabezado .titulo{
+  text-align: center;
+  color: white;
+  font-size: 28px;
+}
+/*Esta parte nos ayudara a alinaer nuestro texto a la izquierda e incremantar el tamaño de la letra */
+body .logo{
+  text-align: left;
+  font-size: 40px;
+}
+/*Esta parte nos ayudara a alinaer nuestro texto a la izquierda e incremantar el tamaño de la letra */
+body .logo .img{
+  margin-top: -100px;
+  margin-left: 220px;
+}
+/*esta parte nos ayudara para darle un altura al menu donde tendremos nuestras opciones*/
+body .contenido {
+  margin: 0;
+  height: 500px;
+}
+/*De la linea  44 - 58, el primer elemento que tenemos de la lista es para no darle un estilo a la listas, en los
+elemntos de "li" nos ayuda a que esten en forma horizontal y se den espacion entre las opciones */
+body .contenido .menu{
+  margin: 0;
+  height: 25px;
+}
+
+ul {
+    list-style:none;
+}
+li{
+    float: left;
+    line-height: 30px;
+    margin:0 -235px;
+    margin-top: -10px;
+    margin-left: 350px;
+    font-size: 24px;
+}
+/*Para esta parte nos ayuda a darle un margen y una altura ademas de acomodarla justo abajo del menu */
+body .contenido .Info{
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  margin-top: 70px;
+}
+/*Esta parte nos ayuda a darle un margen a la imagen para que quede autamotico*/
+body .contenido .Info .imagen{
+margin: 0;
+}
+/*nos ayuda a aumentar el tamaño de letra del titulo*/
+body .contenido .Info .squats{
+  font-size: 28px;
+  margin: 30px;
+}
+/*Nos pone el texto debajo del menu */
+body .contenido .Info .p1{
+  margin: auto;
+  padding: auto;
+  margin-left: 350px;
+  margin-top: -250px
+}
+/*acomoda la informaxion flotando a la derecha del logo grande de squats */
+body .contenido .Info .a1{
+  margin: 50px;
+  margin-left: 350px;
+  margin-top: -150px;
+  font-size: 24px;
+}
+/*acomoda la informacion del alumno 2 a la derecha del alumno 1*/
+body .contenido .Info .a2{
+  margin: 50px;
+  margin-left: 850px;
+  margin-top: -255px;
+  font-size: 24px;
+}
+/*acomoda la informaxion del alumno 3 abajo del alumno 1 */
+body .contenido .Info .a3{
+  margin: 50px;
+  margin-left: 350px;
+  margin-top: 150px;
+  font-size: 24px;
+}
+/*acomoda la infomacion del alumno 4 abajo del alumno 3 */
+body .contenido .Info .a4{
+  margin: 50px;
+  margin-left: 850px;
+  margin-top: -275px;
+  font-size: 24px;
+}
+/*Nos ayuda a mover el video justo debajo del texto del segundo parrafo */
+body .piedepag .img{
+  margin-left: 1250px;
+  margin-top: 300px;
+}
+/*Esta parte nos ayuda a darle un color de fonod al titulo*/
+body .color {
+  background-color: black;
+  height: 50px;
+  margin-bottom: 50px;
+}

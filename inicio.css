@@ -1,0 +1,116 @@
+/*Esta primer parte nos ayuda para que la pagina se adapte a todos los navegadores al mismo tamaño */
+*{
+  margin: 0;
+  padding: 0;
+}
+/*La primer parte del body solo nos ayuda a darle un color de fondo a la pagina  */
+body{
+    background-color: #6a5f4d;
+}
+/* esta parte nos servira para poder darle un margen y rellenar el margen*/
+body .color .encabezado{
+  margin: 25px;
+  padding: 0;
+}
+/* esta parte nos servira para poner el titulo de la pagina en blanco y alinear el texto al centro ademas
+de incrementar el tamaño de la letra */
+body .encabezado .titulo{
+  text-align: center;
+  color: white;
+  font-size: 28px;
+}
+/*Esta parte nos ayudara a alinaer nuestro texto a la izquierda e incremantar el tamaño de la letra */
+body .logo{
+  text-align: left;
+  font-size: 40px;
+}
+/*Esta parte nos ayudara a mover nuestra imagen para que este en la esquina superior derecha del nombre del equipo*/
+body .logo .img{
+  margin-top: -100px;
+  margin-left: 220px;
+}
+/*Esta parte nos dara un margen para el contenido y altura */
+body .contenido {
+  margin: 0;
+  height: 500px;
+}
+/*esta parte nos ayudara para darle un altura al menu donde tendremos nuestras opciones*/
+body .contenido .menu{
+  margin: 0;
+  height: 25px;
+}
+/*De la linea  43- 53, el primer elemento que tenemos de la lista es para no darle un estilo a la listas, en los
+elemntos de "li" nos ayuda a que esten en forma horizontal y se den espacion entre las opciones */
+ul {
+    list-style:none;
+}
+li{
+    float: left;
+    line-height: 30px;
+    margin:0 -235px;
+    margin-top: -10px;
+    margin-left: 350px;
+    font-size: 24px;
+}
+/*Para esta parte nos ayuda a darle un margen y una altura ademas de acomodarla justo abajo del menu */
+body .contenido .Info{
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  margin-top: 70px;
+}
+/*Esta parte nos ayuda a darle un margen a la imagen para que quede autamotico*/
+body .contenido .Info .imagen{
+margin: 0;
+}
+/*Esta parte nos ayuda a darle una mayor fuente y margen de 30 para que la letra no sobrepase esos limites*/
+body .contenido .Info .squats{
+  font-size: 28px;
+  margin: 30px;
+}
+/*Esta parte nos ayuda a ajustara el primer parrafo*/
+body .contenido .Info .p1{
+  margin: auto;
+  padding: auto;
+  margin-left: 350px;
+  margin-top: -250px
+}
+/*El primer titulo nos ayuda a aumentarle el tamaño de letra */
+body .contenido .Info .p1 .t1{
+  font-size: 34px;
+}
+/*Nos ayuda a justificar el texto y darle una acnchura adeacuada para que nos sobrepase los limites de la pagina */
+body .contenido .Info .p1 .p{
+  font-size: 25px;
+  text-align: justify;
+  width: 800px;
+}
+/*Esta parte nos ayuda a ajustara el segundo parrafo*/
+body .contenido .Info .p2{
+  margin: auto;
+  padding: auto;
+  margin-left: 350px;
+  margin-top: 100px
+}
+/*El primer titulo nos ayuda a aumentarle el tamaño de letra */
+body .contenido .Info .p2 .t2{
+  font-size: 34px;
+}
+/*Nos ayuda a justificar el texto y darle una acnchura adeacuada para que nos sobrepase los limites de la pagina */
+body .contenido .Info .p2 .p{
+  font-size: 25px;
+  text-align: justify;
+  width: 800px;
+}
+/*Nos ayuda a mover el logo del equipo a la esquina inferior derecha */
+body .piedepag .img{
+  margin-left: 1200px;
+  margin-top: 25px;
+}
+
+/*Esta parte nos ayuda a darle un color de fonod al titulo*/
+body .color {
+  background-color: black;
+  height: 50px;
+  margin-bottom: 50px;
+}
